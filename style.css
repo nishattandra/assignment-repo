@@ -42,7 +42,7 @@
     border: none;
 }
 
-/* about failures */
+/* about failures styles */
 .about {
     padding: 800px 206px 100px 206px;
     display: flex;
@@ -86,7 +86,7 @@ li {
     background-size: 30px;
 }
 
-/* My plans */
+/* My plans styles*/
 .plans {
     text-align: center;
     margin-top: 80px;
@@ -115,6 +115,96 @@ li {
 .plan-to-do {
     color: #737272;
     font-weight: 500;
-font-size: 25px;
+    font-size: 25px;
 
+}
+
+/* Positive Mindset styles*/
+.positive-mind {
+    margin: 130px 230px;
+    width: 1140px;
+    height: 300px;
+    background: url('./images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    position: absolute;
+    border-radius: 8px;
+}
+
+.positive-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 59px 617px 20px 64px;
+}
+
+.btn-positive {
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 64px;
+}
+
+/* future plan style */
+.future {
+    display: flex;
+    width: 1600px;
+    height: 577px;
+    margin-top: 550px;
+    background: #151414;
+}
+
+.future-description {
+    margin: 130px 230px 130px 230px;
+}
+
+.description-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.description-content {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.virtual-site {
+    margin-right: 17px;
+}
+
+.subscription {
+    margin: 130px 229px 243px 300px;
+}
+
+.subscription-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+.subscription-email {
+    width: 300px;
+    height: 60px;
+    border: 2px #FFFFFF;
+    color: hsl(0, 0%, 95%);
+    background: #151414;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.subscription-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #005FAC;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
 }
